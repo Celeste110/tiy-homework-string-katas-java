@@ -112,6 +112,7 @@
             {
                 if (a.charAt(0)=='o') b = "" + 'o';
                 if (a.charAt(1)=='z') b+= 'z';
+                else return (a.substring(0,2));
             }
 
             return b;
